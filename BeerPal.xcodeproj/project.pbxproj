@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BBBA4071B72DF56002749E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA4061B72DF56002749E3 /* AppDelegate.swift */; };
+		1BBBA4091B72DF56002749E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA4081B72DF56002749E3 /* ViewController.swift */; };
+		1BBBA40C1B72DF56002749E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBA40A1B72DF56002749E3 /* Main.storyboard */; };
+		1BBBA40F1B72DF56002749E3 /* BeerPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA40D1B72DF56002749E3 /* BeerPal.xcdatamodeld */; };
+		1BBBA4111B72DF56002749E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBA4101B72DF56002749E3 /* Assets.xcassets */; };
+		1BBBA4141B72DF56002749E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBBA4121B72DF56002749E3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BBBA4031B72DF56002749E3 /* BeerPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBBA4061B72DF56002749E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BBBA4081B72DF56002749E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BBBA40B1B72DF56002749E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BBBA40E1B72DF56002749E3 /* BeerPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeerPal.xcdatamodel; sourceTree = "<group>"; };
+		1BBBA4101B72DF56002749E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BBBA4131B72DF56002749E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BBBA4151B72DF56002749E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BBBA4001B72DF56002749E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BBBA3FA1B72DF56002749E3 = {
+			isa = PBXGroup;
+			children = (
+				1BBBA4051B72DF56002749E3 /* BeerPal */,
+				1BBBA4041B72DF56002749E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BBBA4041B72DF56002749E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA4031B72DF56002749E3 /* BeerPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BBBA4051B72DF56002749E3 /* BeerPal */ = {
+			isa = PBXGroup;
+			children = (
+				1BBBA4061B72DF56002749E3 /* AppDelegate.swift */,
+				1BBBA4081B72DF56002749E3 /* ViewController.swift */,
+				1BBBA40A1B72DF56002749E3 /* Main.storyboard */,
+				1BBBA4101B72DF56002749E3 /* Assets.xcassets */,
+				1BBBA4121B72DF56002749E3 /* LaunchScreen.storyboard */,
+				1BBBA4151B72DF56002749E3 /* Info.plist */,
+				1BBBA40D1B72DF56002749E3 /* BeerPal.xcdatamodeld */,
+			);
+			path = BeerPal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BBBA4021B72DF56002749E3 /* BeerPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BBBA4181B72DF56002749E3 /* Build configuration list for PBXNativeTarget "BeerPal" */;
+			buildPhases = (
+				1BBBA3FF1B72DF56002749E3 /* Sources */,
+				1BBBA4001B72DF56002749E3 /* Frameworks */,
+				1BBBA4011B72DF56002749E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeerPal;
+			productName = BeerPal;
+			productReference = 1BBBA4031B72DF56002749E3 /* BeerPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BBBA3FB1B72DF56002749E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Transient Brewing";
+				TargetAttributes = {
+					1BBBA4021B72DF56002749E3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1BBBA3FE1B72DF56002749E3 /* Build configuration list for PBXProject "BeerPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BBBA3FA1B72DF56002749E3;
+			productRefGroup = 1BBBA4041B72DF56002749E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BBBA4021B72DF56002749E3 /* BeerPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BBBA4011B72DF56002749E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBBA4141B72DF56002749E3 /* LaunchScreen.storyboard in Resources */,
+				1BBBA4111B72DF56002749E3 /* Assets.xcassets in Resources */,
+				1BBBA40C1B72DF56002749E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BBBA3FF1B72DF56002749E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBBA4091B72DF56002749E3 /* ViewController.swift in Sources */,
+				1BBBA40F1B72DF56002749E3 /* BeerPal.xcdatamodeld in Sources */,
+				1BBBA4071B72DF56002749E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BBBA40A1B72DF56002749E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BBBA40B1B72DF56002749E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BBBA4121B72DF56002749E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BBBA4131B72DF56002749E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BBBA4161B72DF56002749E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BBBA4171B72DF56002749E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BBBA4191B72DF56002749E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeerPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reesenet.BeerPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BBBA41A1B72DF56002749E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeerPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reesenet.BeerPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BBBA3FE1B72DF56002749E3 /* Build configuration list for PBXProject "BeerPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBBA4161B72DF56002749E3 /* Debug */,
+				1BBBA4171B72DF56002749E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BBBA4181B72DF56002749E3 /* Build configuration list for PBXNativeTarget "BeerPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBBA4191B72DF56002749E3 /* Debug */,
+				1BBBA41A1B72DF56002749E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BBBA40D1B72DF56002749E3 /* BeerPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BBBA40E1B72DF56002749E3 /* BeerPal.xcdatamodel */,
+			);
+			currentVersion = 1BBBA40E1B72DF56002749E3 /* BeerPal.xcdatamodel */;
+			path = BeerPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1BBBA3FB1B72DF56002749E3 /* Project object */;
+}
